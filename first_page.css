@@ -1,0 +1,116 @@
+body {
+    background-color: blanchedalmond;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 0%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+p {
+    padding: 2px;
+}
+.wrapper {
+    margin: 0%;
+    background: #DAD5C1;
+    max-width: auto;
+    padding: 2px;
+    border-radius: 10px;
+    flex: 1px;
+}
+.header {
+    background-color: rgba(234, 242, 163, 0.93);
+    display: block;
+    text-decoration: solid;
+    font-size: larger;
+    color: rgb(135, 40, 152);
+}
+
+nav {
+    background: #ded055;
+    padding: 5px;
+    margin-top: 5%;
+    border-radius: 10px;
+    display: block;
+    border: 3px;   
+}
+
+nav ul {
+   list-style: none;
+    margin-left:7%;
+    display: block;
+    padding: 0%;
+   
+}
+nav li a {
+    color: #350303;
+    display: inline;
+    float: left;
+    padding: 10px;
+    padding-top: 0px;
+    text-decoration: none;
+}
+.image-container img{
+    display: flex;
+    margin: 0 auto;
+    width: 20%;
+    height: 100px;
+    height: auto;
+    position: absolute;
+    padding-top: 50px;
+    padding-right: 50%;   
+
+}
+.SchoolIdentification {
+    display: block;
+    margin-left: 10px;
+}
+.summarize {
+    margin-left: 4px;
+    display: block;
+    
+}
+.another-me{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    border: 2px;
+    margin-right: 1px;
+    border-radius: 2px;
+}
+.left_col {
+    background-color: #DAD5C1;
+    width: 30%;
+    float: left;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+p > strong {
+    font-style: italic;
+}
+.sidebar {
+    background-color: #DAD5C1;
+    width: 38%;
+    float: right;
+    margin-top: 2%;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+.link-text {
+    margin-top: 30px;
+    display: block;
+    padding: 10px;
+    padding-top: 50px;
+    text-align: justify;
+     background-color: beige;
+     position: absolute;
+
+}
+footer {
+    display: block;
+    text-align: center;
+    padding: 10px;
+     background-color: #333;
+    color: #fff;
+}
