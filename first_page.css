@@ -9,7 +9,8 @@ body {
 
 }
 p {
-    padding: 2px;
+    /* padding: 2px; */
+    margin-left: 3px;
 }
 .wrapper {
     margin: 0%;
@@ -29,18 +30,21 @@ p {
 
 nav {
     background: #ded055;
-    padding: 5px;
+    /* padding: 5px; */
     margin-top: 5%;
+    height: 50px;
     border-radius: 10px;
-    display: block;
+    display: flex;
+    /* justify-content: ; */
+    /* align-self: center; */
     border: 3px;   
 }
 
 nav ul {
-   list-style: none;
-    margin-left:7%;
-    display: block;
-    padding: 0%;
+    list-style: none;
+    display: inline-flex;
+    /* margin-left:7%; */
+    /* padding: 0%; */
    
 }
 nav li a {
@@ -53,38 +57,52 @@ nav li a {
 }
 .image-container img{
     display: flex;
-    margin: 0 auto;
+    margin: 60px 0px 30px 10px;
     width: 20%;
     height: 100px;
     height: auto;
-    position: absolute;
-    padding-top: 50px;
-    padding-right: 50%;   
+    /* position: absolute; */
+    /* padding-top: 50px; */
+    /* padding-right: 50%;    */
 
 }
 .SchoolIdentification {
-    display: block;
+    /* display: block; */
     margin-left: 10px;
+    margin-top: 200px;
 }
 .summarize {
     margin-left: 4px;
-    display: block;
+    /* display: block; */
     
 }
 .another-me{
     width: 300px;
-    height: 300px;
-    display: inline-block;
+    /* height: 300px; */
+    /* display: inline-block; */
     border: 2px;
     margin-right: 1px;
     border-radius: 2px;
+    display: inline-block;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
 }
-.left_col {
+.passport {
+    margin-left: 8%;
+
+}
+/* .left_col {
     background-color: #DAD5C1;
     width: 30%;
     float: left;
     margin-top: 2%;
     border-radius: 10px;
+} */
+.goal {
+    background-color: #DAD5C1;
+    padding: 10px;
+    text-align: justify;
 }
 p > strong {
     font-style: italic;
@@ -98,13 +116,13 @@ p > strong {
     padding-left: 10px;
 }
 .link-text {
-    margin-top: 30px;
-    display: block;
+    margin-top: 500px;
+    /* display: block; */
     padding: 10px;
-    padding-top: 50px;
-    text-align: justify;
+    /* padding-top: 50px; */
+    text-align: center;
      background-color: beige;
-     position: absolute;
+     /* position: absolute; */
 
 }
 footer {

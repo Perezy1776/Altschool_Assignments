@@ -22,7 +22,7 @@ function addToCount() {
 }
 
 addToCount()
-*/
+
 
 
 //function with parameter
@@ -35,7 +35,7 @@ displayName("Ade", "Johnson")
 
 
 
-/*
+
 //function with returns
 function getFullName(firstName, lastName) {
     const fullName = firstName + " " + lastName
@@ -44,9 +44,9 @@ function getFullName(firstName, lastName) {
 
 let fullname = getFullName("John", "Doe")
 alert(fullname)
+*/
 
-
-
+/*
 
 //function expression
 const sayHello = function () {
@@ -72,10 +72,9 @@ function showFullName() { alert("John Doe") }
 function showUserName() { alert("JohnDoe234") }
 
 displayUser("full", showFullName, showUserName)
-
+*/
 
 
 //Arrow functions
 let sum = (a, b) => a + b;
 let sayHelloWorld = () => alert("Hello World!");
-*/
