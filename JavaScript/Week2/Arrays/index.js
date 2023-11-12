@@ -1,5 +1,7 @@
 // Create an array
 // let users = new Array(); // Using class method
+let users = ["John", "Mary", "Perez"];
+console.log (users.length)
 
 // let items = ["John", "Mary", "Yemi", 20, 25.6, { theme: "dark" }];
 

@@ -76,18 +76,59 @@ nav li a {
     /* display: block; */
     
 }
-.another-me{
+.first_passport {
     width: 300px;
     /* height: 300px; */
     /* display: inline-block; */
     border: 2px;
     margin-right: 1px;
     border-radius: 2px;
-    display: inline-block;
+    /* display: inline-block; */
     justify-items: center;
     align-items: center;
     padding: 10px;
 }
+
+.second_passport {
+    width: 300px;
+    /* height: 300px; */
+    /* display: inline-block; */
+    border: 10px;
+    border-color: chocolate;
+    margin-right: 1px;
+    border-radius: 2%;
+    /* display: inline-block; */
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.third_passport {
+    width: 300px;
+    /* height: 300px; */
+    /* display: inline-block; */
+    border: 2px;
+    margin-right: 1px;
+    border-radius: 2px;
+    /* display: inline-block; */
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.fourth_passport {
+    width: 300px;
+    /* height: 300px; */
+    /* display: inline-block; */
+    border: 2px;
+    margin-right: 1px;
+    border-radius: 2px;
+    /* display: inline-block; */
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+}
+
 .passport {
     margin-left: 8%;
 
@@ -99,6 +140,8 @@ nav li a {
     margin-top: 2%;
     border-radius: 10px;
 } */
+
+
 .goal {
     background-color: #DAD5C1;
     padding: 10px;
@@ -125,10 +168,11 @@ p > strong {
      /* position: absolute; */
 
 }
-footer {
+.copyright {
     display: block;
     text-align: center;
-    padding: 10px;
-     background-color: #333;
+    padding: 5%;
+    background-color: #333;
     color: #fff;
+    
 }
