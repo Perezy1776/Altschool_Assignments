@@ -1,8 +1,12 @@
 // Display the title of the current page
 // alert(document.title);
 
+// setTimeout (() => {
+// document.body.style.backgroundColor ="blue"
+// }, 3000)
+
 // Display the content of the head tag
-// alert(document.head.innerHTML);
+// console.log (document.head);
 
 // Display the content of the body tag
 // alert(document.body.innerHTML);

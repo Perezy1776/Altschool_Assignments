@@ -1,7 +1,8 @@
 // Create an array
 // let users = new Array(); // Using class method
-let users = ["John", "Mary", "Perez"];
-console.log (users.length)
+// let users = ["John", "Mary", "Perez"];
+// console.log (users)
+// console.log (users.length)
 
 // let items = ["John", "Mary", "Yemi", 20, 25.6, { theme: "dark" }];
 
@@ -9,9 +10,9 @@ console.log (users.length)
 // console.log(items.length)
 
 
-// Create an array of strings called animals.
-// let animals = ["Lion", "Tiger", "Pig"]
-// // index ==>  [ 0,         1       2  ]
+// // Create an array of strings called animals.
+let animals = ["Lion", "Tiger", "Pig"]
+// index ==>  [ 0,         1       2  ]
 
 
 // // // Get values from the array
@@ -20,8 +21,8 @@ console.log (users.length)
 
 
 
-// // Update a value in the array
-// animals[2] = { name: "Goat", type: "herbivores" } // ["Lions", "Tiger", "Goat"]
+// // // Update a value in the array
+// animals[2] = "Goat" // ["Lions", "Tiger", "Goat"]
 // console.log(animals)
 
 
@@ -32,17 +33,13 @@ console.log (users.length)
 
 // // Array Methods
 
-// // Add a value to the end of the array
-// animals.push("Cow")
-// console.log(animals) // ["Lions", "Tiger", "Goat", "Cow"]
-
 // // Remove a value from the end of the array
 // animals.pop()
 // console.log(animals) // ["Lions", "Tiger"]
 
 
 
-// // Remove a value from the beginning of the array
+// Remove a value from the beginning of the array
 // animals.shift()
 // console.log(animals) // ["Tiger",  "Pig"]
 
@@ -76,7 +73,7 @@ console.log (users.length)
 
 
 
-let animals = ["Lion", "Tiger", "Pig"]
+// let animals = ["Lion", "Tiger", "Pig"]
 
 // // iterate over the array with for...of
 // for (let animal of animals) {
@@ -91,7 +88,7 @@ let animals = ["Lion", "Tiger", "Pig"]
 // }
 
 
-// // iterate over the array with forEach
+// iterate over the array with forEach
 // function displayEachAnimal(animal) {
 //     console.log(`This animal is: ${animal}`)
 // }
@@ -117,16 +114,16 @@ let animals = ["Lion", "Tiger", "Pig"]
 
 // // iterate over the array with filter
 // let populations = [200, 100, 30, 4, 5, 60]
-
-// console.log(`Default population: ${populations}`)
-
-// let populationGreaterThan30 = populations.filter((population) => {
+// console.log(`Default Population: ${populations}`)
+// let populationGreaterthan30 = populations.filter((population)=> {
 //     if (population > 30 && population < 200){
 //         return population
 //     }
-// })
 
-// console.log(populationGreaterThan30)
+// })
+// console.log(populationGreaterthan30)
+
+
 
 
 
@@ -134,5 +131,5 @@ let animals = ["Lion", "Tiger", "Pig"]
 // // 2D Arrays
 // let matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]];
 
-// console.log(matrix[2][1])
+// console.log(matrix[1][2])
 

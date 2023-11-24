@@ -2,9 +2,10 @@ body {
     background-color: blanchedalmond;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: medium;
+    max-width: 100%;
     padding: 0%;
     margin: 0;
-    display: flex;
+    /* display: flex; */
     flex-direction: column;
 
 }
@@ -12,13 +13,17 @@ p {
     /* padding: 2px; */
     margin-left: 3px;
 }
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
 .wrapper {
     margin: 0%;
     background: #DAD5C1;
-    max-width: auto;
+    width: 40%;
     padding: 2px;
     border-radius: 10px;
-    flex: 1px;
+    /* flex: 1px; */
 }
 .header {
     background-color: rgba(234, 242, 163, 0.93);
@@ -40,20 +45,25 @@ nav {
     border: 3px;   
 }
 
-nav ul {
+nav ul li {
     list-style: none;
     display: inline-flex;
     /* margin-left:7%; */
     /* padding: 0%; */
    
 }
-nav li a {
+ a {
     color: #350303;
     display: inline;
-    float: left;
+    /* float: left; */
     padding: 10px;
     padding-top: 0px;
     text-decoration: none;
+    &:hover{
+        color: red;
+        text-decoration: revert;
+        transition: 2s ;
+    }
 }
 .image-container img{
     display: flex;
@@ -166,13 +176,43 @@ p > strong {
     text-align: center;
      background-color: beige;
      /* position: absolute; */
+     
 
+}
+footer {
+    background-color: #333;
 }
 .copyright {
     display: block;
     text-align: center;
     padding: 5%;
-    background-color: #333;
     color: #fff;
     
 }
+ol li {
+    list-style: none;
+    display: inline-flex;
+}
+.socials img {
+    display: inline;
+    margin: 20px 0px 0px 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+   
+}
+.animate {
+    animation-name: slidein;
+    animation-duration: 3s;
+        }
+        @keyframes slidein{
+            from{
+                margin-left: 100%;
+                width: 300%;
+            }
+            to{
+                margin-left: 0%;
+                width: 100%;
+            }
+        }
+    
