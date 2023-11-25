@@ -1,0 +1,48 @@
+body{
+    background-color: aliceblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    max-width: 100%;
+    padding: 0%;
+    margin: 0;
+}
+nav {
+    background: #eeeeeb;
+    margin-top: 5px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    border: 2px;
+    padding-left: 2px;   
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-flex;
+    padding-left: 2px;
+}
+a {
+    color: #350303;
+    display: inline;
+    padding: 10px;
+    padding-top: 0px;
+    text-decoration: none;
+    &:hover{
+        color: red;
+        text-decoration: revert;
+        transition: 2s ;
+    }
+}
+fieldset {
+    max-width: 80%;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 0px;
+    background: #f7f6f5;
+    padding-top: 2px;
+    /* align-items: center; */
+}
+.FormSection {
+    padding-top: 10px;
+    text-align: center;
+}
