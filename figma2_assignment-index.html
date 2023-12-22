@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="figma2_pusher_checkout.css">
+    <title>WP-Pusher-Checkout</title>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div id="logo">
+                <img src="Assets/Images/wppusher-logo copy.png" alt="Wp-Pusher-Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Download</a></li>
+                    <li><a href="#">Learn more</a></li>
+                    <li><a href="#">Pricing</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li class="account"><a href="#">Account</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="MainBody">
+            <div class="Check-Container">
+                <p class="Checkout">Checkout</p>
+            </div>
+            <div class="FormContainer">
+                <div class="basicinfo">
+                    <img src="Assets/Images/1.png">  
+                    <h5>Your Basic Information</h5>
+                </div>
+                <div class="FormArena">
+                    <form action="#">
+                        <div class="form-row">
+                            <label for="firstName">First Name</label>
+                            <input type="text" id="firstname" name="firstName" placeholder="jane" required>
+                        </div>
+                        <div class="form-row">
+                            <label for="lastName">Last Name</label>
+                            <input type="text" id="lastName" name="lastName" placeholder="Doe" required>
+                        </div>
+                       
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="hashtag@ggmail.com" required>
+                    </form>
+                </div>
+                <div class="payment-info">
+                    <img src="Assets/Images/2.png">  
+                    <h5>Your Payment Information</h5>
+                </div>
+                <div class="card-info">
+                    <form action="#" method="post">
+                        <div class="input-card">
+                            <label for="creditCard">Credit Card</label>
+                            <input type="text" id="creditCard" name="creditCard" placeholder="card number" maxlength="19" required>
+                        </div>
+                       
+                        <div class="input-expiryDate">
+                            <label for="expiryDate"></label> 
+                            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" maxlength="4" required>
+                        </div>
+
+                        <div class="input-cvv">
+                            <label for="cvv"></label>
+                            <input type="text" id="cvv" name="cvv" placeholder="CVV" maxlength="3" required>
+                        </div>
+          
+                    </form>
+                </div>
+            </div>
+            <div class="BlueArea">
+                <div class="BlueArea-text">
+                    <h3>Freelancer</h3>
+                    <img class="pricing" src="Assets/Images/Pricing.png">
+                    <p style="color: #fff; font-size: 12px;"><em>Automatically renews <br>after 1 year</em></p>
+                    <ul>
+                        <li class="checkmark"> <img src="Assets/Images/Combined Shape.png"> Use on 5 client sites</li>
+                        <li class="checkmark"> <img src="Assets/Images/Combined Shape.png"> Private repositories</li>
+                        <li class="checkmark"> <img src="Assets/Images/Combined Shape.png"> Email support</li>
+                    </ul>
+                    <div class="clientside">
+                        <p>Need <strong>20</strong> client sites?</p>
+                    <p><strong>Switch to the Agency plan.</strong></p>
+                    <br> 
+                    <div>
+                        <hr>
+                        <br>
+                    
+                        <div class="quote-container">                       
+                             <p class="quote">FTP is horrible to deal with. <br> <strong>WP Pusher</strong> solves that issue, <br> and the customer support is awesome!</p>
+                            </div>
+                            <div class="quoter">
+                                <img src="Assets/Images/Bitmap.png" alt="Kirk Beard"> 
+                                <p class="Kirk-beard">Kirk Beard</p>
+                            </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+           
+        </div>
+    </div>
+</body>
+</html>
